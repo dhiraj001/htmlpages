@@ -48,10 +48,17 @@ nav .menu{
 	justify-content: space-between;
 }
 nav .menu a{
-	width: 25%;
-	text-decoration: none;
+	padding: 12px 30px;
 	color: white;
-	font-weight: bold;
+	border-radius: 4px;
+	outline: none;;
+	text-transform: uppercase;
+	font-weight: 500;
+	text-decoration: none;
+}
+nav .menu a:hover{
+	padding: 12px 30px;
+	background: white;
 }
 
 main {
